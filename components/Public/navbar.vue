@@ -23,7 +23,7 @@ onMounted(() => {
   >
     <UContainer>
       <section
-        class="md:flex lg:items-center relative py-3 lg:px-10 px-4 border-gray-200 border-b lg:min-h-[80px] max-lg:min-h-[60px]"
+        class="md:flex lg:items-center py-3 lg:px-10 px-4 border-gray-200 border-b lg:min-h-[80px] max-lg:min-h-[60px] sticky top-0"
       >
         <a href="javascript:void(0)" class="max-sm:w-full max-sm:mb-3 shrink-0"
           ><img src="/logo.png" alt="logo" class="w-[160px]" />
