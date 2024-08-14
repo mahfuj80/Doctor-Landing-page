@@ -28,7 +28,7 @@
         <h1
           data-animation="fadeInUp"
           data-delay=".4s"
-          class="md:text-[80px] tracking-[-2.3px] leading-[1.2] box-border mt-0 mb-[20px] text-[#223645] font-bold text-3xl"
+          class="md:text-[80px] md:tracking-[-2.3px] leading-[1.2] box-border mt-0 mb-[20px] text-[#223645] font-bold text-3xl"
         >
           Best Care &amp; Better Doctor.
         </h1>
