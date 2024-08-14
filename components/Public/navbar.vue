@@ -23,17 +23,32 @@ onMounted(() => {
   >
     <UContainer>
       <section
-        class="md:flex lg:items-center py-3 lg:px-10 px-4 border-gray-200 border-b lg:min-h-[80px] max-lg:min-h-[60px] sticky top-0"
+        class="flex items-center md:flex lg:items-center py-3 lg:px-10 px-4 pr-8 border-gray-200 border-b lg:min-h-[80px] max-lg:min-h-[60px] sticky top-0"
       >
         <a href="javascript:void(0)" class="max-sm:w-full max-sm:mb-3 shrink-0"
           ><img src="/logo.png" alt="logo" class="w-[160px]" />
         </a>
-
-        <div class="flex flex-wrap w-full items-center">
+        <di id="toggleOpen" class="md:hidden">
+          <button>
+            <svg
+              class="w-7 h-7"
+              fill="#333"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </di>
+        <div class="md:flex flex-wrap w-full items-center hidden">
           <input
             type="text"
             placeholder="Search something..."
-            class="xl:w-96 max-lg:w-full lg:ml-10 max-md:mt-4 max-lg:ml-4 bg-gray-100 focus:bg-transparent px-6 rounded h-11 outline-[#333] text-sm transition-all"
+            class="xl:w-96 max-lg:w-full lg:ml-10 max-md:mt-4 max-lg:ml-4 bg-gray-100 focus:bg-transparent px-6 rounded h-11 outline-[#333] text-sm transition-all hidden md:block"
           />
           <div class="ml-auto max-lg:mt-4">
             <ul class="flex items-center">
