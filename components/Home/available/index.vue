@@ -27,7 +27,7 @@
             <div
               class="flex items-center text-lg font-medium text-white gap-2 justify-center md:justify-start"
             >
-              <UIcon name="i-heroicons-bell-solid" />
+              <UIcon name="material-symbols:supervisor-account" dynamic />
               <p>Satisfied Patients</p>
             </div>
             <p
@@ -44,7 +44,7 @@
             <div
               class="flex items-center text-lg font-medium text-white gap-2 justify-center md:justify-start"
             >
-              <UIcon name="i-heroicons-bell-solid" />
+              <UIcon name="lucide:thumbs-up" dynamic />
               <p>Satisfied Patients</p>
             </div>
             <p

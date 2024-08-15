@@ -62,7 +62,7 @@ function onSubmit(form) {
 </script>
 
 <template>
-  <section class="bg-[#F4F9FC] py-12 md:pt-12 md:pb-32">
+  <section class="bg-[#F4F9FC] py-12 md:pt-16 md:pb-22">
     <section class="container mx-auto md:px-12 px-4">
       <div
         class="flex flex-col md:flex-row gap-8 items-center justify-center md:justify-between md:w-[90%] md:mx-auto"
