@@ -8,8 +8,24 @@
     </section>
 
     <!-- About Us -->
-    <About />
+    <AboutUs />
 
-    <!-- Services -->
+    <!-- Service Departments -->
+    <Departments />
+
+    <!-- Our Team -->
+    <Team />
+
+    <!-- Available -->
+    <Available />
+
+    <!-- Plans -->
+    <Plans />
+
+    <!-- Consultant -->
+     <Consultant />
+
+     <!-- News -->
+      <News />      
   </main>
 </template>
