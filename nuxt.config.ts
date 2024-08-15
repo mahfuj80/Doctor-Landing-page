@@ -21,6 +21,7 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Lato: true,
+      Poppins: true,
     },
     display: "swap", // Optional: This is a good practice to improve performance
   },

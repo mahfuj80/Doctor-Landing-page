@@ -4,28 +4,28 @@
   <main class="bg-white">
     <!-- Banner -->
     <section class="py-4 max-w-[1680px] mx-auto">
-      <Banner />
+      <HomeBanner />
     </section>
 
     <!-- About Us -->
-    <AboutUs />
+    <HomeAboutUs />
 
     <!-- Service Departments -->
-    <Departments />
+    <HomeDepartments />
 
     <!-- Our Team -->
-    <Team />
+    <HomeTeam />
 
     <!-- Available -->
-    <Available />
+    <HomeAvailable />
 
     <!-- Plans -->
-    <Plans />
+    <HomePlans />
 
     <!-- Consultant -->
-     <Consultant />
+    <HomeConsultant />
 
-     <!-- News -->
-      <News />      
+    <!-- News -->
+    <HomeNews />
   </main>
 </template>

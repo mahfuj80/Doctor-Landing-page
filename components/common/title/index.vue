@@ -19,7 +19,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div :class="['md:w-[80%]', isCenter ? 'w-fit mx-auto md:w-1/2' : '']">
+  <div :class="[isCenter ? 'w-fit mx-auto md:w-[55%]' : 'md:w-[70%]']">
     <div :class="['flex ', isCenter ? 'items-center justify-center' : '']">
       <div
         :class="[
