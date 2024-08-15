@@ -1,17 +1,15 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <main class="bg-white">
     <!-- Banner -->
     <section class="py-4 max-w-[1680px] mx-auto">
-      <Banner/>
-		</section>
+      <Banner />
+    </section>
 
-		<!-- About Us -->
-		 <section>
-			
-		 </section>
+    <!-- About Us -->
+    <About />
+
+    <!-- Services -->
   </main>
 </template>
